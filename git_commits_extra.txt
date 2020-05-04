@@ -1,0 +1,8 @@
+1. git commit -m "Set userid and password of database in JpaConfig.java and persistence.xml"
+2. git commit -m "The image retrieval bug is fixed by not accessing the image by it's title but by using the image id in ImageController.java"
+3. git commit -m "The edit/delete bug is resolved by validating the user before he edits the image and also displays the error message when invalid user tries to edit the image"
+4. git commit -m "The password is validated using the java regular expressions"
+5. git commit -m "The Comment Model class is created. Created required fields"
+6. git commit -m "The Comment Repository class is created. Stores, retrieves the comments from databse"
+7. git commit -m "The Comment Service class is created which cntains the business logic of the comments"
+8. git commit -m "The Comment Controller class is created which loads the comments when navigated to the URL"
